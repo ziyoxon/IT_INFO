@@ -1,0 +1,16 @@
+{
+  "port": 3000,
+  "dbAtlasUri": "mongodb://127.0.0.1:27017/ITINFO",
+  "tokenKey": "MyVeryVerySecretKey",
+  "tokenTime": "86400000",
+  "accses_key": "MyAccessTokenSecretKey",
+  "refresh_key": "MyRefreshTokenSecretKey",
+  "access_time": "15s",
+  "refresh_time": "30s",
+  "refresh_time_ms": 1296000000,
+  "smtp_password": "relejmfnuhqmvmme",
+  "smtp_host": "smtp.gmail.com",
+  "smtp_port": 587,
+  "smtp_user": "doniyorbekabdugopporov40@gmail.com",
+  "api_url": "http://localhost"
+}

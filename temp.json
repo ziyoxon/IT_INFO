@@ -1,0 +1,26 @@
+{
+  "level": "\u001b[32minfo\u001b[39m",
+  "message": "POST /api/author/login 200 43ms",
+  "meta": {
+    "req": {
+      "headers": {
+        "accept": "*/*",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive",
+        "content-length": "74",
+        "content-type": "application/json",
+        "cookie": "refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmNmZmE0NTBiN2M2YmY4YmZlMzNhYmQiLCJlbWFpbCI6InNoZXJ6b2Rxb2RpckBnbWFpbC5jb20iLCJpc19leHBlcnQiOmZhbHNlLCJhdXRob3Jfcm9sZXMiOlsiUkVBRCIsIldSSVRFIl0sImlhdCI6MTcyNDkwNzE2OCwiZXhwIjoxNzI2MjAzMTY4fQ.V0zCquCkcfAy-0QYyqAWZalG2v5-1PN8qpYjFaUZ8ss",
+        "host": "localhost:3000",
+        "postman-token": "b07284c4-69b0-4c14-8e1b-abdc0beac16b",
+        "user-agent": "PostmanRuntime/7.41.2"
+      },
+      "httpVersion": "1.1",
+      "method": "POST",
+      "originalUrl": "/api/author/login",
+      "query": {},
+      "url": "/api/author/login"
+    },
+    "res": { "statusCode": 200 },
+    "responseTime": 43
+  }
+}

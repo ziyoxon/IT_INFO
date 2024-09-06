@@ -1,0 +1,64 @@
+<form id="loginForm">
+    <div class="mb-3">
+        <label for="email" class="form-label">Author email</label>
+        <input
+            type="email"
+            class="form-control"
+            id="email" 
+            name="email" 
+            value="bmwe.smith@example.com" 
+            aria-describedby="emailHelp"
+        />
+        <div id="emailHelp" class="form-text">We'll never share your email with
+            anyone else.</div>
+    </div>
+
+    <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <input
+            type="password"
+            class="form-control"
+            id="password"
+            value="password123"
+        />
+    </div>
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+<script>
+    const form = document.getElementById("loginForm");
+    form.addEventListener("submit", async(e) => {
+        e.preventDefault();
+        const email = document.getElementById("email").value;
+        const password = document.getElementById("password").value;
+
+        try {
+            const response = await fetch('http://localhost:3000/api/author/login', {
+                method: "POST",
+                headers: {
+                    "Content-Type": 'application/json'
+                },
+                body: JSON.stringify({
+                    email,
+                    password
+                })
+            });
+
+            if (response.ok) {
+                console.log("Successful Login");
+                const data = await response.json();
+                console.log(data.accessToken);
+                localStorage.setItem("accessToken", data.accessToken);
+            } else {
+                console.log("Failed Login");
+            }
+        } catch (error) {
+            console.log("Fetch error", error);
+        }
+    });
+</script>

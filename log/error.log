@@ -1,0 +1,114 @@
+2024-09-04T04:08:18.704Z error: unhandledRejection: Cannot set headers after they are sent to the client
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (node:_http_outgoing:659:11)
+    at ServerResponse.header (D:\FULL STACK\Mongo_DB\IT_info\IT_info\node_modules\express\lib\response.js:795:10)
+    at ServerResponse.send (D:\FULL STACK\Mongo_DB\IT_info\IT_info\node_modules\express\lib\response.js:175:12)
+    at ServerResponse.json (D:\FULL STACK\Mongo_DB\IT_info\IT_info\node_modules\express\lib\response.js:279:15)
+    at ServerResponse.send (D:\FULL STACK\Mongo_DB\IT_info\IT_info\node_modules\express\lib\response.js:163:21)
+    at D:\FULL STACK\Mongo_DB\IT_info\IT_info\middleware\author_roles_police .js:51:23
+    at Layer.handle [as handle_request] (D:\FULL STACK\Mongo_DB\IT_info\IT_info\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\FULL STACK\Mongo_DB\IT_info\IT_info\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\FULL STACK\Mongo_DB\IT_info\IT_info\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\FULL STACK\Mongo_DB\IT_info\IT_info\node_modules\express\lib\router\layer.js:95:5)
+2024-09-04T04:09:19.121Z error: uncaughtException: Cannot find module '../middleware/admin_role_police'
+Require stack:
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\admin.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\index.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\app.js
+Error: Cannot find module '../middleware/admin_role_police'
+Require stack:
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\admin.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\index.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\admin.routes.js:16:25)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-09-04T08:53:56.824Z error: uncaughtException: Cannot find module '../models/Article'
+Require stack:
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\index.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\app.js
+Error: Cannot find module '../models/Article'
+Require stack:
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\index.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js:14:17)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-09-04T08:54:28.368Z error: uncaughtException: Cannot find module '../models/Article'
+Require stack:
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\index.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\app.js
+Error: Cannot find module '../models/Article'
+Require stack:
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\index.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js:14:17)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-09-04T08:55:35.478Z error: uncaughtException: Cannot find module '../models/Article'
+Require stack:
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\index.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\app.js
+Error: Cannot find module '../models/Article'
+Require stack:
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\index.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js:14:17)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+2024-09-04T08:55:43.614Z error: uncaughtException: Cannot find module '../models/Article'
+Require stack:
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\index.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\app.js
+Error: Cannot find module '../models/Article'
+Require stack:
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\index.routes.js
+- D:\FULL STACK\Mongo_DB\IT_info\IT_info\app.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\FULL STACK\Mongo_DB\IT_info\IT_info\routes\author.routes.js:14:17)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+{"level":"error","message":"middlewareError","meta":{"date":"Wed Sep 04 2024 15:30:50 GMT+0500 (Узбекистан, стандартное время)","error":{"body":"{\r\n    \"term\":\"Nodejs\"\r\n    \"letter\":\"let\"\r\n}","expose":true,"status":400,"statusCode":400,"type":"entity.parse.failed"},"exception":true,"level":"error","message":"uncaughtException: Expected ',' or '}' after property value in JSON at position 28\nSyntaxError: Expected ',' or '}' after property value in JSON at position 28\n    at JSON.parse (<anonymous>)\n    at parse (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","os":{"loadavg":[0,0,0],"uptime":778076.046},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\app.js"],"cwd":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36553389,"external":38947915,"heapTotal":35385344,"heapUsed":33455728,"rss":73637888},"pid":11056,"uid":null,"version":"v20.16.0"},"req":{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"45","content-type":"application/json","host":"localhost:3000","postman-token":"1cc61edc-f539-4900-9c31-0a06b11c8e07","user-agent":"PostmanRuntime/7.41.2"},"httpVersion":"1.1","method":"POST","originalUrl":"/api/dict/create","query":{},"url":"/api/dict/create"},"stack":"SyntaxError: Expected ',' or '}' after property value in JSON at position 28\n    at JSON.parse (<anonymous>)\n    at parse (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":19,"file":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\types\\json.js","function":"parse","line":92,"method":null,"native":false},{"column":18,"file":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\read.js","function":null,"line":128,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":238,"method":null,"native":false},{"column":7,"file":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js","function":"done","line":227,"method":null,"native":false},{"column":7,"file":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":287,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1696,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":82,"method":"processTicksAndRejections","native":false}]}}
+{"level":"error","message":"middlewareError","meta":{"date":"Wed Sep 04 2024 16:32:15 GMT+0500 (Узбекистан, стандартное время)","error":{"body":"{\r\n    \"author_id\":\"66d8438e66a0bde8566c5bb3\",\r\n    \"topic_title\":\"Sardor\",\r\n    \"topic_text\":\"Sarforjonxonbefsdfgnsgkjldjslkgjkdfjdlfjdgsdgk\",\r\n\r\n\r\n}","expose":true,"status":400,"statusCode":400,"type":"entity.parse.failed"},"exception":true,"level":"error","message":"uncaughtException: Expected double-quoted property name in JSON at position 149\nSyntaxError: Expected double-quoted property name in JSON at position 149\n    at JSON.parse (<anonymous>)\n    at parse (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","os":{"loadavg":[0,0,0],"uptime":781761.093},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\app.js"],"cwd":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":36535687,"external":38931820,"heapTotal":67104768,"heapUsed":41184160,"rss":104837120},"pid":9240,"uid":null,"version":"v20.16.0"},"req":{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"150","content-type":"application/json","cookie":"refreshToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NmQ4NDM4ZTY2YTBiZGU4NTY2YzViYjMiLCJuYW1lIjoiU2hhaHpvZGEgamFsc2QiLCJlbWFpbCI6InNoYWh6b2RhLmNvYmFsdEBleGFtcGxlLmNvbSIsInBob25lIjoiNTUtODk2LTc0LTU2IiwiaWF0IjoxNzI1NDQ5MTA1LCJleHAiOjE3MjU0NDkxMzV9.2H9ZyueCmimdGnnhE1Wjj0NLTInGTMPIbFScKXuqKik","host":"localhost:3000","postman-token":"d613ddbe-bd88-49a0-a4c5-3c6bf8882efb","user-agent":"PostmanRuntime/7.41.2"},"httpVersion":"1.1","method":"POST","originalUrl":"/api/topic/create","query":{},"url":"/api/topic/create"},"stack":"SyntaxError: Expected double-quoted property name in JSON at position 149\n    at JSON.parse (<anonymous>)\n    at parse (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\types\\json.js:92:19)\n    at D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\read.js:128:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)\n    at invokeCallback (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:238:16)\n    at done (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:227:7)\n    at IncomingMessage.onEnd (D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js:287:7)\n    at IncomingMessage.emit (node:events:519:28)\n    at endReadableNT (node:internal/streams/readable:1696:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":null,"file":null,"function":"JSON.parse","line":null,"method":"parse","native":false},{"column":19,"file":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\types\\json.js","function":"parse","line":92,"method":null,"native":false},{"column":18,"file":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\body-parser\\lib\\read.js","function":null,"line":128,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":206,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":238,"method":null,"native":false},{"column":7,"file":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js","function":"done","line":227,"method":null,"native":false},{"column":7,"file":"D:\\FULL STACK\\Mongo_DB\\IT_info\\IT_info\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":287,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":519,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1696,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":82,"method":"processTicksAndRejections","native":false}]}}
